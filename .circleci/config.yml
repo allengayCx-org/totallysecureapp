@@ -11,7 +11,7 @@ jobs:
             /app/bin/cx \
             scan create \
             -s '.' \
-            --agent CircleCI \
+            --agent 'CircleCI' \
             --project-name $CX_PROJECT \
             --branch $CX_BRANCH \
             --base-uri $CX_BASE_URI \
