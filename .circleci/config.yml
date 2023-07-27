@@ -11,11 +11,11 @@ jobs:
             /app/bin/cx \
             scan create \
             -s '.' \
-            --agent CircleCI \
-            --project-name $PROJECT \
-            --branch $CX_BRANCH \
-            --base-uri $CX_BASE_URI \
-            --base-auth-uri $CX_BASE_AUTH_URI \
-            --tenant $CX_TENANT \
-            --client-id $CX_CLIENT_ID \
-            --client-secret $CX_CLIENT_SECRET \
+            --agent 'CircleCI' \
+            --project-name 'totallysecureapp circleci' \
+            --branch 'master' \
+            --base-uri 'https://ast.checkmarx.net/' \
+            --base-auth-uri 'https://iam.checkmarx.net/' \
+            --tenant 'cx_ast_se_allengay_demo_na' \
+            --client-id 'circleci_client' \
+            --client-secret 'm440LBJpsqo1IECTDBC823aVOmFiVv2a' \
