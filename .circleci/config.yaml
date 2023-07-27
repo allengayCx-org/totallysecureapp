@@ -10,7 +10,7 @@ jobs:
           command: |
             /app/bin/cx \
             scan create \
-            -s . \
+            -s '.' \
             --agent CircleCI \
             --project-name $PROJECT \
             --branch $CX_BRANCH \
