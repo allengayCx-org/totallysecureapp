@@ -12,10 +12,10 @@ jobs:
             scan create \
             -s '.' \
             --agent 'CircleCI' \
-            --project-name $CX_PROJECT \
+            --project-name $CIRCLE_PROJECT_REPONAME \
             --branch $CX_BRANCH \
             --base-uri $CX_BASE_URI \
             --base-auth-uri $CX_BASE_AUTH_URI \
             --tenant $CX_TENANT \
             --client-id $CX_CLIENT_ID \
-            --client-secret $CX_CLIENT_SECRET \
+            --client-secret $CX_CLIENT_SECRET
