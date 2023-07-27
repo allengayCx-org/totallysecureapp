@@ -12,7 +12,7 @@ jobs:
             scan create \
             -s '.' \
             --agent 'CircleCI' \
-            --project-name $CIRCLE_PROJECT_REPONAME \
+            --project-name 'allengayCx-org/$CIRCLE_PROJECT_REPONAME' \
             --branch $CX_BRANCH \
             --base-uri $CX_BASE_URI \
             --base-auth-uri $CX_BASE_AUTH_URI \
