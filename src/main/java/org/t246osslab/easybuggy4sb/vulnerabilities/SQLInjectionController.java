@@ -66,6 +66,8 @@ public class SQLInjectionController extends AbstractController {
 				});
 		//*/ End SQLi Section
 
+		
+
 		/* Start Remediated Section
 		String sql = "SELECT name, secret from USERS where name=? or password=?";
 		return jdbcTemplate.query(sql, new PreparedStatementCallback<Boolean>(){
