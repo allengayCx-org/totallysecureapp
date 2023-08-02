@@ -1,15 +1,3 @@
-version: 2
-
-on:
-  #pull_request:
-  # branches:
-  # - main
-  #push: 
-  # branches:
-  # - main
-    
-  workflow_dispatch: #adds a 'run now' button
-  
 jobs:
   build:
     docker:
