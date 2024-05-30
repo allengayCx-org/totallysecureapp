@@ -64,12 +64,8 @@ public class SQLInjectionController extends AbstractController {
                         return user;
                     }
 				});
-<<<<<<< HEAD
 		*/
 		// End SQLi Section
-=======
-		// End SQLi Section */
->>>>>>> origin/master
 		
 		// Start Remediated Section
 		//*
@@ -92,12 +88,7 @@ public class SQLInjectionController extends AbstractController {
 				return user;
 			}
 		});
-<<<<<<< HEAD
 		/*/
 		//  End Remediated Section 
-=======
-		
-		//  End Remediated Section */
->>>>>>> origin/master
 	}
 }
